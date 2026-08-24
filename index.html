@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Shadesh Model Management — modern model representation, casting and creative talent management." />
+  <title>Shadesh Model Management</title>
+  <style>
+:root{--black:#050505;--white:#f7f7f4;--line:#222;--muted:#a9a9a4}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--white);font-family:'DM Sans',Arial,sans-serif}a{color:inherit;text-decoration:none}.site-header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:20px 4vw;background:rgba(5,5,5,.93);backdrop-filter:blur(12px);border-bottom:1px solid #202020}.brand{display:flex;align-items:center;gap:13px}.brand-mark{font-family:'Italiana',serif;font-size:31px;line-height:1}.brand-name{font-size:13px;letter-spacing:.32em}.site-header nav{display:flex;gap:28px;font-size:12px;text-transform:uppercase;letter-spacing:.12em}.site-header nav a:hover{opacity:.55}.menu{display:none;color:#fff;background:none;border:0;text-transform:uppercase;letter-spacing:.15em}.hero{min-height:calc(100vh - 73px);display:grid;grid-template-columns:1.08fr .92fr;padding:6vw 4vw 3vw;overflow:hidden}.hero-copy{display:flex;flex-direction:column;justify-content:center;max-width:750px}.eyebrow{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#b6b6b0;margin:0 0 28px}.eyebrow.dark{color:#4d4d4a}.hero h1,.section h2{font-family:'Italiana',serif;font-weight:400;letter-spacing:-.03em}.hero h1{font-size:clamp(72px,10vw,165px);line-height:.82;margin:0}.hero h1 em{font-weight:400}.hero-intro{max-width:550px;font-size:18px;line-height:1.6;color:#c5c5c0;margin:42px 0}.hero-actions{display:flex;align-items:center;gap:30px}.button{display:inline-flex;align-items:center;justify-content:center;padding:15px 24px;border:1px solid currentColor;font-size:11px;letter-spacing:.18em;text-transform:uppercase;cursor:pointer}.button.light{background:#fff;color:#050505}.text-link{font-size:12px;letter-spacing:.08em;border-bottom:1px solid #555;padding-bottom:4px}.hero-art{position:relative;display:flex;align-items:center;justify-content:center}.giant-s{font-family:'Italiana',serif;font-size:min(62vw,760px);line-height:.7;color:#fff;opacity:.98;transform:translateY(-2%)}.vertical-copy{position:absolute;right:0;bottom:4%;writing-mode:vertical-rl;font-size:9px;letter-spacing:.28em;color:#777}.ticker{overflow:hidden;border-top:1px solid #222;border-bottom:1px solid #222;padding:16px 0;white-space:nowrap}.ticker div{font-family:'Italiana',serif;font-size:20px;letter-spacing:.1em;word-spacing:25px}.ticker span{opacity:.35}.section{padding:8vw 4vw}.models-section,.split-section,.partners-section,.contact-section{background:var(--white);color:#080808}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:50px}.section h2{font-size:clamp(48px,6vw,96px);line-height:.95;margin:0}.dark-link{border-color:#b8b8b3}.model-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.portrait{aspect-ratio:3/4;background:#deded9;position:relative;overflow:hidden}.portrait::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#d7d7d2,#969693);mix-blend-mode:multiply}.portrait-2::before{background:linear-gradient(25deg,#bbb,#ecece6)}.portrait-3::before{background:linear-gradient(160deg,#777,#d8d8d3)}.portrait-4::before{background:linear-gradient(80deg,#e5e5df,#888)}.portrait span{position:absolute;left:16px;bottom:14px;font-size:10px;letter-spacing:.18em;color:#fff}.model-meta h3{font-size:14px;letter-spacing:.04em;margin:16px 0 4px}.model-meta p,.placeholder-note{font-size:11px;color:#6b6b67;margin:0}.placeholder-note{margin-top:24px}.split-section{display:grid;grid-template-columns:1fr 1fr;gap:10vw;border-top:1px solid #d8d8d2}.body-copy{font-size:22px;line-height:1.55;padding-top:44px}.body-copy p:first-child{margin-top:0}.services-section{background:#0b0b0b}.service-list{border-top:1px solid #292929}.service-list>div{display:grid;grid-template-columns:80px 1fr 1fr;gap:30px;padding:28px 0;border-bottom:1px solid #292929;align-items:start}.service-list span{font-size:11px;color:#777}.service-list h3{font-family:'Italiana',serif;font-size:36px;font-weight:400;margin:0}.service-list p{color:#9f9f99;line-height:1.6;margin:6px 0 0}.partners-intro{max-width:700px;font-size:16px;line-height:1.6;color:#60605c}.partner-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:48px;border-top:1px solid #cfcfc9;border-left:1px solid #cfcfc9}.partner-grid div{min-height:150px;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;border-right:1px solid #cfcfc9;border-bottom:1px solid #cfcfc9;font-size:11px;letter-spacing:.15em}.apply-section{display:grid;grid-template-columns:1fr 1fr;gap:9vw;background:#090909}.apply-copy h2{font-size:clamp(48px,6vw,86px)}.apply-copy>p:last-child{color:#a3a39e;line-height:1.7;max-width:500px}.apply-form{display:grid;grid-template-columns:1fr 1fr;gap:20px}.apply-form label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#9a9a96}.apply-form input{width:100%;margin-top:8px;padding:14px 0;border:0;border-bottom:1px solid #444;background:transparent;color:#fff;font:inherit;outline:none}.apply-form input:focus{border-bottom-color:#fff}.apply-form .full{grid-column:1/-1}.apply-form button{justify-self:start;margin-top:10px}.form-message{grid-column:1/-1;font-size:11px;color:#aaa}.contact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin-top:65px;padding-top:25px;border-top:1px solid #d1d1ca}.contact-grid span{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#888;margin-bottom:12px}.contact-grid a,.contact-grid p{font-size:15px;margin:0}footer{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:25px;padding:35px 4vw;border-top:1px solid #222;font-size:9px;letter-spacing:.16em;color:#8b8b86}.footer-logo{font-family:'Italiana',serif;font-size:50px;color:#fff}@media(max-width:900px){.site-header nav{display:none;position:absolute;top:72px;left:0;right:0;background:#050505;flex-direction:column;padding:25px 4vw;border-bottom:1px solid #222}.site-header nav.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;min-height:auto;padding-top:16vw}.hero-art{height:68vw;min-height:390px}.giant-s{font-size:76vw}.model-grid{grid-template-columns:1fr 1fr}.split-section,.apply-section{grid-template-columns:1fr}.body-copy{padding-top:0}.partner-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr 1fr}.service-list>div{grid-template-columns:45px 1fr}.service-list p{grid-column:2}.section{padding:14vw 5vw}}@media(max-width:560px){.hero h1{font-size:22vw}.hero-actions{align-items:flex-start;flex-direction:column}.model-grid{grid-template-columns:1fr}.partner-grid{grid-template-columns:1fr 1fr}.apply-form{grid-template-columns:1fr}.apply-form .full{grid-column:auto}.contact-grid{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.section h2{font-size:15vw}footer{grid-template-columns:auto 1fr}footer p:last-child{grid-column:1/-1}}
+
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Shadesh home">
+      <span class="brand-mark">S</span>
+      <span class="brand-name">SHADESH</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#models">Models</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#apply">Apply</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Open menu">Menu</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">MODEL MANAGEMENT · BANGKOK / INTERNATIONAL</p>
+        <h1>Faces with<br><em>presence.</em></h1>
+        <p class="hero-intro">Shadesh represents distinctive new and established talent for fashion, editorial, commercial, runway and creative projects.</p>
+        <div class="hero-actions">
+          <a class="button light" href="#models">View Models</a>
+          <a class="text-link" href="#apply">Become a Shadesh model ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="giant-s">S</div>
+        <div class="vertical-copy">SHADESH · MODEL MANAGEMENT · EST. 2026</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Agency services">
+      <div>EDITORIAL <span>•</span> RUNWAY <span>•</span> COMMERCIAL <span>•</span> CAMPAIGN <span>•</span> BEAUTY <span>•</span> CASTING <span>•</span></div>
+    </section>
+
+    <section id="models" class="section models-section">
+      <div class="section-head">
+        <p class="eyebrow dark">ROSTER</p>
+        <h2>Our Models</h2>
+        <a class="text-link dark-link" href="#contact">Book talent ↗</a>
+      </div>
+      <div class="model-grid">
+        <article class="model-card"><div class="portrait portrait-1"><span>MODEL 01</span></div><div class="model-meta"><h3>New Face</h3><p>Women · Bangkok</p></div></article>
+        <article class="model-card"><div class="portrait portrait-2"><span>MODEL 02</span></div><div class="model-meta"><h3>Development</h3><p>Men · Bangkok</p></div></article>
+        <article class="model-card"><div class="portrait portrait-3"><span>MODEL 03</span></div><div class="model-meta"><h3>Editorial</h3><p>Women · International</p></div></article>
+        <article class="model-card"><div class="portrait portrait-4"><span>MODEL 04</span></div><div class="model-meta"><h3>Commercial</h3><p>All Talent</p></div></article>
+      </div>
+      <p class="placeholder-note">Replace these placeholders with model polaroids and portfolio images as your roster grows.</p>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div>
+        <p class="eyebrow dark">ABOUT SHADESH</p>
+        <h2>Individual talent.<br>Long-term careers.</h2>
+      </div>
+      <div class="body-copy">
+        <p>Shadesh is an independent model management agency focused on discovering, developing and representing talent with a strong point of view.</p>
+        <p>We combine personal management with thoughtful casting, brand positioning and career development — building relationships that make sense for both talent and clients.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <p class="eyebrow">WHAT WE DO</p>
+      <div class="service-list">
+        <div><span>01</span><h3>Model Representation</h3><p>Career strategy, portfolio development, bookings and ongoing management.</p></div>
+        <div><span>02</span><h3>Casting</h3><p>Curated talent selections for campaigns, editorials, runway, e-commerce and events.</p></div>
+        <div><span>03</span><h3>Brand & Creative</h3><p>Talent matching for brands, photographers, stylists, production teams and creative agencies.</p></div>
+        <div><span>04</span><h3>International Placement</h3><p>Long-term goal: develop trusted relationships with agencies and clients across key fashion markets.</p></div>
+      </div>
+    </section>
+
+    <section class="section partners-section">
+      <div class="section-head">
+        <div><p class="eyebrow dark">COLLABORATION</p><h2>Who We Work With</h2></div>
+      </div>
+      <p class="partners-intro">Until formal partnerships are signed, keep this section category-based so the site stays credible. You can replace these with verified partner logos later.</p>
+      <div class="partner-grid">
+        <div>FASHION BRANDS</div><div>BEAUTY & SKINCARE</div><div>MAGAZINES & EDITORIAL</div><div>PRODUCTION HOUSES</div><div>PHOTOGRAPHERS</div><div>CASTING DIRECTORS</div><div>CREATIVE AGENCIES</div><div>EVENT & RUNWAY</div>
+      </div>
+    </section>
+
+    <section id="apply" class="section apply-section">
+      <div class="apply-copy">
+        <p class="eyebrow">BECOME A SHADESH MODEL</p>
+        <h2>We are always looking for something we haven't seen before.</h2>
+        <p>No professional photos are required. Send simple natural-light digitals with minimal makeup and no filters.</p>
+      </div>
+      <form class="apply-form" onsubmit="event.preventDefault(); document.getElementById('formMsg').textContent='Application form demo — connect this to your email or form service before launch.';">
+        <label>Full name<input type="text" required></label>
+        <label>Email<input type="email" required></label>
+        <label>Instagram<input type="text" placeholder="@username"></label>
+        <label>Height<input type="text" placeholder="e.g. 178 cm"></label>
+        <label>City / Country<input type="text"></label>
+        <label class="full">Portfolio / Drive link<input type="url" placeholder="https://"></label>
+        <button class="button light" type="submit">Submit Application</button>
+        <p id="formMsg" class="form-message" role="status"></p>
+      </form>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <p class="eyebrow dark">BOOKINGS & CONTACT</p>
+      <h2>Let's work together.</h2>
+      <div class="contact-grid">
+        <div><span>General</span><a href="mailto:hello@shadesh.com">hello@shadesh.com</a></div>
+        <div><span>Bookings</span><a href="mailto:bookings@shadesh.com">bookings@shadesh.com</a></div>
+        <div><span>Instagram</span><a href="#">@shadeshmodels</a></div>
+        <div><span>Location</span><p>Bangkok, Thailand</p></div>
+      </div>
+      <p class="placeholder-note">Replace the email addresses and Instagram handle with the ones you register.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">S</div>
+    <p>SHADESH MODEL MANAGEMENT</p>
+    <p>© 2026 SHADESH. ALL RIGHTS RESERVED.</p>
+  </footer>
+
+  <script>
+    const button = document.querySelector('.menu');
+    const nav = document.querySelector('nav');
+    button.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
